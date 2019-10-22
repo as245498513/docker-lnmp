@@ -58,7 +58,7 @@ services:
     restart: always
     container_name: redis
 
-    mongo:
+  mongo:
       build: ./mongo
       ports:
         - "27017:27017"
