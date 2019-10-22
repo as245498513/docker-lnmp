@@ -67,7 +67,7 @@ services:
       networks:
         - backend
       restart: always
-      container_name: redis
+      container_name: mongo
 
 
 networks:
