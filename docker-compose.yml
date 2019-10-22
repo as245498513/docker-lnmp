@@ -66,6 +66,8 @@ services:
         - ./mongo:/data/db
       networks:
         - backend
+      restart: always
+      container_name: redis
 
 
 networks:
